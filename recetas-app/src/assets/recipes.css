@@ -1,0 +1,1094 @@
+.background {
+  background-color: #ffffff;
+  border-color: #ececec;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 584px;
+  position: relative;
+  width: 1920px;
+}
+
+.background .aside {
+  height: 503px;
+  left: 375px;
+  position: absolute;
+  top: 31px;
+  width: 266px;
+}
+
+.background .list {
+  height: 442px;
+  left: 0;
+  position: absolute;
+  top: 61px;
+  width: 266px;
+}
+
+.background .item {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #313131;
+  height: 141px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+
+.background .container {
+  height: 120px;
+  position: relative;
+}
+
+.background .heading-link {
+  height: 67px;
+  left: 140px;
+  position: absolute;
+  top: 0;
+  width: 126px;
+}
+
+.background .sepia-salteada-con {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 64px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
+
+.background .div {
+  background-image: url(./link.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.background .container-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #313131;
+  height: 141px;
+  left: 0;
+  position: absolute;
+  top: 161px;
+  width: 266px;
+}
+
+.background .todo-sobre-la-gilda {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 64px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 0;
+  width: 119px;
+}
+
+.background .container-2 {
+  background-image: url(./image.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.background .item-2 {
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 322px;
+  width: 266px;
+}
+
+.background .salm-n-a-la-naranja {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 64px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 0;
+  width: 83px;
+}
+
+.background .container-3 {
+  background-image: url(./link-2.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.background .heading {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-color: #ff5722;
+  height: 31px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+
+.background .text-wrapper {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 16px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.background .aside-2 {
+  height: 503px;
+  left: 676px;
+  position: absolute;
+  top: 31px;
+  width: 266px;
+}
+
+.background .c-mo-hacer-galletas {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 64px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 0;
+  width: 121px;
+}
+
+.background .container-4 {
+  background-image: url(./link-3.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.background .c-mo-hacer-wrapper {
+  height: 112px;
+  left: 140px;
+  position: absolute;
+  top: 0;
+  width: 126px;
+}
+
+.background .c-mo-hacer {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 109px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 0;
+  width: 121px;
+}
+
+.background .container-5 {
+  background-image: url(./link-4.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.background .c-mo-hacer-panna-wrapper {
+  height: 90px;
+  left: 140px;
+  position: absolute;
+  top: 0;
+  width: 126px;
+}
+
+.background .c-mo-hacer-panna {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 86px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 0;
+  width: 122px;
+}
+
+.background .container-6 {
+  background-image: url(./link-5.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.background .text-wrapper-2 {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 16px;
+  left: 86px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  white-space: nowrap;
+  width: 94px;
+}
+
+.background .aside-3 {
+  height: 49px;
+  left: 978px;
+  position: absolute;
+  top: 31px;
+  width: 266px;
+}
+
+.background .list-2 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 79px;
+  width: 266px;
+}
+
+.background .link-wrapper {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 136px;
+}
+
+.background .link {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 124px;
+}
+
+.background .text-wrapper-3 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 124px;
+}
+
+.background .div-wrapper {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 159px;
+}
+
+.background .link-2 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 147px;
+}
+
+.background .text-wrapper-4 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 148px;
+}
+
+.background .item-3 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 126px;
+}
+
+.background .bacalao-al-ajillo-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 114px;
+}
+
+.background .bacalao-al-ajillo {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.background .item-4 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 120px;
+  width: 236px;
+}
+
+.background .potaje-de-garbanzos-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 224px;
+}
+
+.background .potaje-de-garbanzos {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 226px;
+}
+
+.background .item-5 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 179px;
+}
+
+.background .tortillitas-de-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 167px;
+}
+
+.background .tortillitas-de {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 168px;
+}
+
+.background .item-6 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 200px;
+  width: 224px;
+}
+
+.background .ensalada-de-bacalao-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 212px;
+}
+
+.background .ensalada-de-bacalao {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 213px;
+}
+
+.background .item-7 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 240px;
+  width: 123px;
+}
+
+.background .bacalao-al-pil-pil-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 111px;
+}
+
+.background .bacalao-al-pil-pil {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 112px;
+}
+
+.background .item-8 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 128px;
+  position: absolute;
+  top: 240px;
+  width: 118px;
+}
+
+.background .torrijas-de-vino-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 106px;
+}
+
+.background .text-wrapper-5 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 106px;
+}
+
+.background .item-9 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 280px;
+  width: 131px;
+}
+
+.background .hornazo-andaluz-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 119px;
+}
+
+.background .hornazo-andaluz {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 120px;
+}
+
+.background .item-10 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 136px;
+  position: absolute;
+  top: 280px;
+  width: 117px;
+}
+
+.background .pesti-os-de-miel-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 105px;
+}
+
+.background .item-11 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 320px;
+  width: 159px;
+}
+
+.background .item-12 {
+  border-color: #313131;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-radius: 5px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 360px;
+  width: 206px;
+}
+
+.background .rosti-de-patatas-wrapper {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 194px;
+}
+
+.background .rosti-de-patatas {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.background .recetas-de-cuaresma-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-color: #ff5722;
+  height: 49px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+
+.background .recetas-de-cuaresma {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 34px;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  width: 229px;
+}
+
+.background .aside-4 {
+  height: 31px;
+  left: 1279px;
+  position: absolute;
+  top: 31px;
+  width: 266px;
+}
+
+.background .list-3 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 61px;
+  width: 266px;
+}
+
+.background .item-13 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 146px;
+}
+
+.background .link-3 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 134px;
+}
+
+.background .text-wrapper-6 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 135px;
+}
+
+.background .item-14 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 151px;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
+
+.background .link-4 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 48px;
+}
+
+.background .text-wrapper-7 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 49px;
+}
+
+.background .item-15 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 91px;
+}
+
+.background .link-5 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 79px;
+}
+
+.background .text-wrapper-8 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.background .item-16 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 96px;
+  position: absolute;
+  top: 40px;
+  width: 83px;
+}
+
+.background .link-6 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 71px;
+}
+
+.background .text-wrapper-9 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 71px;
+}
+
+.background .item-17 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 184px;
+  position: absolute;
+  top: 40px;
+  width: 50px;
+}
+
+.background .link-7 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 38px;
+}
+
+.background .text-wrapper-10 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 38px;
+}
+
+.background .item-18 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 134px;
+}
+
+.background .link-8 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 122px;
+}
+
+.background .item-19 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 120px;
+  width: 128px;
+}
+
+.background .link-9 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 116px;
+}
+
+.background .text-wrapper-11 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.background .item-20 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 133px;
+  position: absolute;
+  top: 120px;
+  width: 116px;
+}
+
+.background .link-10 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 104px;
+}
+
+.background .item-21 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 121px;
+}
+
+.background .link-11 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 109px;
+}
+
+.background .text-wrapper-12 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.background .item-22 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 200px;
+  width: 136px;
+}
+
+.background .text-wrapper-13 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 125px;
+}
+
+.background .item-23 {
+  border: 1px solid;
+  border-color: #313131;
+  border-radius: 5px;
+  height: 30px;
+  left: 141px;
+  position: absolute;
+  top: 200px;
+  width: 104px;
+}
+
+.background .link-12 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 92px;
+}
+
+.background .text-wrapper-14 {
+  color: #313131;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 93px;
+}
+
+.background .item-24 {
+  border-color: #313131;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-radius: 5px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 240px;
+  width: 82px;
+}
+
+.background .link-13 {
+  height: 15px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 70px;
+}
+
+.background .recomendaciones {
+  color: #313131;
+  font-family: "Alice-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 16px;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  white-space: nowrap;
+  width: 137px;
+}
