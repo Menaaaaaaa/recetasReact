@@ -3,6 +3,7 @@ import Menu from "./components/menu"
 import Footer from "./components/footer"
 import Aside from "./components/aside"
 import Content from "./components/content"
+import Below from "./components/below"
 
 function App() {
 
@@ -16,8 +17,8 @@ function App() {
         <Aside/>
         <Content/>
       </div></div>
-      <Footer/>
-
+      <Below/>
+      <Footer/> 
     </>
   )
 }
