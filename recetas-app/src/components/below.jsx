@@ -45,7 +45,7 @@ const recomendaciones = [
   "Recetas andaluzas", "Pescado frito", "Con queso"
 ];
 
-const RecetasFooter = () => {
+const Below = () => {
   return (
     <div className="recetas-footer">
       <div className="col">
@@ -91,4 +91,4 @@ const RecetasFooter = () => {
   );
 };
 
-export default RecetasFooter;
+export default Below;
