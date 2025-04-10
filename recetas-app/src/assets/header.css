@@ -1,0 +1,59 @@
+header {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Parte superior */
+  .header-top {
+    text-align: center;
+    padding: 30px 0 10px;
+  }
+  
+  .header-top h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Navegación principal */
+  .main-nav {
+    background-color: #f15a29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+  
+  .nav-menu li span {
+    font-size: 12px;
+    margin-left: 4px;
+  }
+  
+  .nav-menu .active {
+    /* background-color: #eee; */
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Ícono búsqueda */
+  .search-icon {
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  
