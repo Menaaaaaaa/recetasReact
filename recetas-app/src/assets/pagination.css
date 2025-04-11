@@ -15,20 +15,28 @@
 }
   
 .page {
-  background: rgb(234, 232, 232);
-  border: none;
+  background: #fff;
   padding: 10px 15px;
   font-size: 16px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  color: #d87c6f;
-  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  color: #c4513b;
+  font-weight: bold;
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+  border: none; /* sin bordes */
 }
 
+/* Hover para efecto más marcado */
 .page:hover {
-  transform: scale(1.05);
+  background-color: #fbe4e1;
+  color: #a6321c;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
+
+
 
 .page.active {
   background: #ff5722;
