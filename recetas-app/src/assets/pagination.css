@@ -1,0 +1,42 @@
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 1000px; /* Coincide con el ancho de tu grid de recetas */
+}
+  
+.page {
+  background: rgb(234, 232, 232);
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #d87c6f;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.page:hover {
+  transform: scale(1.05);
+}
+
+.page.active {
+  background: #ff5722;
+  color: white;
+  font-weight: bold;
+}
+
+.page.dots {
+  cursor: default;
+  box-shadow: none;
+}
