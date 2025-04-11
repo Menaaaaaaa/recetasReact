@@ -39,19 +39,16 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <div className="info">
-          <div className="text-wrapper">© Divina Cocina 2024</div>
-          <div className="link">
-            <p className="div">La Ventana Comunicación</p>
-          </div>
-        </div>
         <div className="nav-links">
-          <div className="text-wrapper-2">Aviso Legal</div>
-          <div className="text-wrapper-3">Quienes Somos</div>
-          <div className="text-wrapper-4">Contacto</div>
-          <div className="text-wrapper-5">Sitemap</div>
+            <div>© Divina Cocina 2024</div>
+            <div>La Ventana Comunicación</div>
+            <div>Aviso Legal</div>
+            <div>Quienes Somos</div>
+            <div>Contacto</div>
+            <div>Sitemap</div>
         </div>
-      </div>
+    </div>
+
 
       <div className="link-go-to-top">
         <div className="volver-arriba">VOLVER ARRIBA</div>

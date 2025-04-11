@@ -1,85 +1,80 @@
+.footer {
+  background-color: #212121;
+  width: 100%;
+  position: relative;
+}
 
-   .footer {
-    background-color: #212121;
-    width: 100%;
-    position: relative;
-  }
-  
-  .horizontal-border {
-    border-bottom: 1px solid #313131;
-    padding: 20px 0;
-  }
-  
-  .list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .item-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .icon {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .social-text {
-    color: #ffffff;
-    font-family: "Alice-Regular", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    white-space: nowrap;
-  }
-  
-  .footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 375px;
-  }
-  
-  .info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .text-wrapper, .link p, .nav-links div {
-    color: #999999;
-    font-family: "Lato-BoldItalic", Helvetica;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 700;
-    white-space: nowrap;
-  }
-  
-  .link-go-to-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0;
-  }
-  
-  .volver-arriba {
-    color: #999999;
-    font-family: "Alice-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    white-space: nowrap;
-  }
-  
-  .icon-3 {
-    width: 12px;
-    height: 12px;
-    margin-left: 5px;
-  }
-  
+.horizontal-border {
+  border-bottom: 1px solid #313131;
+  padding: 20px 0;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.social-text {
+  color: #ffffff;
+  font-family: "Alice-Regular", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+/* --- ACTUALIZADO para el bloque final con © y enlaces --- */
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+.nav-links div {
+  color: #999999;
+  font-family: "Lato-BoldItalic", Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* --- BOTÓN DE VOLVER ARRIBA (si lo estás usando) --- */
+.link-go-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.volver-arriba {
+  color: #999999;
+  font-family: "Alice-Regular", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.icon-3 {
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
