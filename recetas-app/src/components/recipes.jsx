@@ -1,5 +1,5 @@
 import React from "react";
-import Recipe from "./recipe"; // Ojo que la primera letra es mayúscula
+import Recipe from "./recipe"; 
 import "../assets/recipe.css";
 
 const recipesOptions = [
