@@ -1,5 +1,7 @@
 
 import React from "react";
+import Recipes from "./recipes";
+import Pagination from "./pagination";
 import '../assets/aside.css';
 
 export default function Aside () {
@@ -18,6 +20,8 @@ export default function Aside () {
       <p className="opinions">Basado en <strong>1</strong> opiniones.</p>
     </div>
     </aside>
+    <Recipes/>
+    <Pagination/>
     </div>
   );
 };
