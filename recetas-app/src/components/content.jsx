@@ -36,7 +36,7 @@ export default function Content() {
     {
       titulo: "Recetas para Invitados",
       items: [
-        "🍡Bocaditos para fiestas", "🍡Buffet frío de fiesta", "🍡 y pinchos", "🍡Platos para compartir",
+        "🍡Bocaditos para fiestas", "🍡Buffet frío de fiesta", "🍡 canapés y pinchos", "🍡Platos para compartir",
         "🍡Brunch", "🍡Finger food", "🍡Salados", "🍡Ensaladillas"
       ]
     },
