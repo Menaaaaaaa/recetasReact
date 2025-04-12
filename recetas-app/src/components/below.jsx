@@ -68,7 +68,6 @@ export default function Below() {
         ))}
       </div>
 
-      {/* Sección modificada con formato lineal */}
       <div className="col linear-section">
         <h3>Recetas Cuaresma y Semana santa </h3>
         <ul>
@@ -78,7 +77,6 @@ export default function Below() {
         </ul>
       </div>
 
-      {/* Sección modificada con formato lineal */}
       <div className="col linear-section">
         <h3>Recomendaciones</h3>
         <ul>
