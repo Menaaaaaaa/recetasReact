@@ -13,7 +13,6 @@ export default function CategoryPages() {
     <Header/>
     <Menu/>
     <CategorysMenu/>
-    
     <Footer/>
     </>
   )

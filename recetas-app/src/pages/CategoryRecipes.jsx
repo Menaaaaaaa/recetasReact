@@ -5,6 +5,7 @@ import MenuNav from "../components/menuNav";
 import Menu from "../components/menu";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import axios from "axios";
 
 export default function CategoryRecipe() {
   const { id } = useParams();
@@ -16,17 +17,15 @@ export default function CategoryRecipe() {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await fetch(`http://localhost:3001/api/recetas/categoria/${id}`);
-        if (!response.ok) throw new Error("Error al obtener recetas");
-
-        const data = await response.json();
+        const response = await axios.get(`http://localhost:3001/api/recetas/categoria/${id}`);
+        const data = response.data;
         setRecipes(data);
 
         if (data.length > 0) {
           setCategoryName(data[0].categoria);
         }
       } catch (err) {
-        setError(err.message);
+        setError(err.message || "Error al obtener recetas");
       } finally {
         setLoading(false);
       }
