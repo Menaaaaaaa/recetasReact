@@ -1,50 +1,43 @@
 .pagination-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  width: 100%;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pagination {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  max-width: 1000px; /* Coincide con el ancho de tu grid de recetas */
 }
-  
+
 .page {
+  border: none;
   background: #fff;
-  padding: 10px 15px;
-  font-size: 16px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  color: #c4513b;
-  font-weight: bold;
+  padding: 0.5rem 0.75rem;
   border-radius: 6px;
   cursor: pointer;
-  transition: all 0.25s ease-in-out;
-  outline: none;
-  border: none; /* sin bordes */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #ff5722;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Hover para efecto más marcado */
 .page:hover {
-  background-color: #fbe4e1;
-  color: #a6321c;
-  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
+  background-color: #ff5722;
+  color: white; 
 }
-
-
 
 .page.active {
-  background: #ff5722;
+  background-color: #ff5722;
   color: white;
-  font-weight: bold;
 }
 
 .page.dots {
+  background: transparent;
   cursor: default;
   box-shadow: none;
+  color: #999;
 }

@@ -1,31 +1,22 @@
-import Header from "./components/header"
-import Menu from "./components/menu"
-import Footer from "./components/footer"
-import Aside from "./components/aside"
-import Content from "./components/content"
-import Below from "./components/below"
-import MenuNav from "./components/menuNav"
+import { Route,Routes } from "react-router-dom"
+import HomePages from "./pages/HomePages"
+import CategoryPages from "./pages/CategoryPages"
+import NotFound from "./pages/NotFound"
+import CategoryRecipe from "./pages/CategoryRecipes"
+import RecipeDetail from "./pages/RecipesDetails"
 
 function App() {
 
 
   return (
     <>
-      <MenuNav/>
-      <Header/>
-      <Menu/>
-      <div className="container mt-5">
-      <div className="row">
-      <div className="col-md-8">
-          <Aside />
-        </div>
-        <div className="col-md-4">
-          <Content />
-        </div>
-      </div>
-      </div>
-      <Below/>
-      <Footer/> 
+     <Routes>
+        <Route path="/" element ={ <HomePages/>} />
+        <Route path="/Category" element ={ <CategoryPages/>} />
+        <Route path= "/Category/:id" element = {<CategoryRecipe/>}/>
+        <Route path= "/receta/:id" element = {<RecipeDetail/>}/>
+        <Route path="*" element ={ <NotFound/>} />
+     </Routes>
     </>
   )
 }

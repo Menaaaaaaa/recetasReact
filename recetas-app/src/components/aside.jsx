@@ -27,7 +27,6 @@ export default function Aside() {
         </div>
       </aside>
       <Recipes />
-      <Pagination />
       <div className="categories-section">
         <h2 className="categories-title">Las mejores recetas de cocina caseras</h2>
           <p className="categories-description">

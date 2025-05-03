@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Recipe from "./recipe"; 
 import "../assets/recipe.css";
 
@@ -70,6 +70,81 @@ export default function Recipes() {
         {recipesOptions.map((r, i) => (
           <Recipe key={i} info={r} />
         ))}
+      </div>
+    </div>
+  );
+}
+
+ */
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import { useLocation, useNavigate } from "react-router-dom";
+import Recipe from "./recipe";
+import Pagination from "./pagination";
+import "../assets/recipe.css";
+
+function useQuery() {
+  const { search } = useLocation();
+  return new URLSearchParams(search);
+}
+
+export default function Recipes() {
+  const [recipes, setRecipes] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const recipesPerPage = 6;
+  const query = useQuery();
+  const navigate = useNavigate();
+
+  const currentPage = parseInt(query.get("page")) || 1;
+
+  useEffect(() => {
+    axios.get("http://localhost:3001/api/recetas")
+      .then((response) => {
+        setRecipes(response.data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error al obtener recetas:", error);
+        setLoading(false);
+      });
+  }, []);
+
+  const indexOfLastRecipe = currentPage * recipesPerPage;
+  const indexOfFirstRecipe = indexOfLastRecipe - recipesPerPage;
+  const currentRecipes = recipes.slice(indexOfFirstRecipe, indexOfLastRecipe);
+  const totalPages = Math.ceil(recipes.length / recipesPerPage);
+
+  // ✅ Redirige a la primera página si el parámetro es inválido
+  useEffect(() => {
+    if (currentPage > totalPages && totalPages > 0) {
+      navigate("?page=1");
+    }
+  }, [currentPage, totalPages, navigate]);
+
+  if (loading) return <p>Cargando recetas...</p>;
+
+  return (
+    <div className="recipe-container">
+      <div className="recipe-grid">
+        {currentRecipes.map((r) => (
+          <Recipe
+            key={r.receta_id}
+            info={{
+              id: r.receta_id,
+              name: r.receta_nombre,
+              descripcion: r.ingredientes,
+              image: r.imagen,
+              reviews: 10
+            }}
+          />
+        ))}
+      </div>
+      <div className="pagination-wrapper">
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+      />
       </div>
     </div>
   );

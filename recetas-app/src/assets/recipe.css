@@ -1,9 +1,10 @@
 /* Contenedor principal */
 .recipe-container {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* ✅ Alinea hijos en columna */
+  align-items: center;     /* ✅ Centra el contenido horizontalmente */
+}
   
   /* Grid que acomoda las tarjetas en filas de a 2 */
   .recipe-grid {
