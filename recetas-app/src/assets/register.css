@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --bg-color: #ffffff;
+  --card-bg: #fff8f0;
+  --primary-color: #c19a6b;
+  --accent-color: #8b3a3a;
+  --text-color: #3b3b3b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: url('https://images.unsplash.com/photo-1498579809087-ef1e558fd1da') no-repeat center center/cover;
+  backdrop-filter: blur(2px);
+}
+
+.register-card {
+  background-color: var(--card-bg);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 500px;
+}
+
+.register-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: var(--accent-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form label {
+  font-weight: 500;
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+  background-color: #fff;
+}
+
+.register-form input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.register-button {
+  width: 100%;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #672020;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 10px;
+  color: #a11a1a;
+}
+
+.register p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6c6c6c; 
+}
+
+.register:hover {
+  color: #f4b59a;
+}
+
+
+
+
+
