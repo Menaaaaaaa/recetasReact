@@ -60,15 +60,61 @@ header {
   padding: 20px;
 }
 
-/* HOVER EFECTO NUEVO */
 .nav-menu li:hover {
   background-color: white;
   color: #ff5722;
   border-radius: 6px;
 }
 
-.search-icon {
-  color: black;
-  font-size: 18px;
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-input:focus {
+  width: 250px;
+  border-color: #f15a29;
+  box-shadow: 0 0 5px rgba(241, 90, 41, 0.3);
+}
+
+.resultados-rapidos {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  list-style: none;
+  margin-top: 8px;
+  padding: 0;
+  width: 250px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resultados-rapidos li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
   cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.resultados-rapidos li:hover {
+  background-color: #ffeae1;
+  color: #f15a29;
 }
