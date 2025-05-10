@@ -22,3 +22,23 @@
     filter: brightness(0) invert(0.7);
   }
   
+  .logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    filter: brightness(0) invert(1); 
+    transition: filter 0.2s, transform 0.2s;
+  }
+  
+  .logout-button:hover {
+    filter: invert(21%) sepia(89%) saturate(7485%) hue-rotate(358deg) brightness(97%) contrast(126%);
+    transform: scale(1.1);
+  }
+  
+  .logout-button img {
+    width: 24px;
+    height: 24px;
+  }
+  

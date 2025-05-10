@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/menuNav.css';
 
-export default function MenuNav() {
+export default function MenuNav({ onLogout }) {
   return (
     <nav className="menu-nav">
       <div className="social-icons">
@@ -11,8 +11,11 @@ export default function MenuNav() {
         <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174863.png" alt="Pinterest" /></a>
         <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" /></a>
         <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046124.png" alt="TikTok" /></a>
+       
+        <button onClick={onLogout} className="logout-button" title="Cerrar sesión">
+          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828479.png" alt="Logout" />
+        </button>
       </div>
     </nav>
   );
-};
-
+}

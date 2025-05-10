@@ -7,7 +7,7 @@ import Menu from "../components/menu";
 import "../assets/recipeDetails.css";
 import axios from "axios";
 
-export default function RecipeDetail() {
+export default function RecipeDetail({onLogout}) {
   const { id } = useParams();
   const [receta, setReceta] = useState(null);
   const [error, setError] = useState("");
@@ -33,7 +33,7 @@ export default function RecipeDetail() {
 
   return (
     <>
-      <MenuNav />
+      <MenuNav onLogout={onLogout}/>
       <Header />
       <Menu />
       <h2 className="recipe-title">{receta.receta_nombre}</h2>

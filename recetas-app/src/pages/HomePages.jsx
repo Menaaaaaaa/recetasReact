@@ -7,10 +7,10 @@ import Aside from '../components/aside'
 import Below from '../components/below'
 import Footer from '../components/footer'
 
-export default function HomePages() {
+export default function HomePages({onLogout}) {
   return (
     <>
-          <MenuNav/>
+          <MenuNav onLogout={onLogout} />
           <Header/>
           <Menu/>
           <div className="container mt-5">

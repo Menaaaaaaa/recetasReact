@@ -6,10 +6,10 @@ import MenuNav from '../components/menuNav'
 import Header from '../components/header'
 import CategoryRecipe from './CategoryRecipes'
 
-export default function CategoryPages() {
+export default function CategoryPages({onLogout}) {
   return (
     <>
-    <MenuNav/>
+    <MenuNav onLogout={onLogout}/>
     <Header/>
     <Menu/>
     <CategorysMenu/>

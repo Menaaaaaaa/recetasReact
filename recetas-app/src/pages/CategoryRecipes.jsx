@@ -7,7 +7,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import axios from "axios";
 
-export default function CategoryRecipe() {
+export default function CategoryRecipe({onLogout}) {
   const { id } = useParams();
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -40,7 +40,7 @@ export default function CategoryRecipe() {
 
   return (
     <>
-      <MenuNav />
+      <MenuNav onLogout={onLogout}/>
       <Header />
       <Menu />
       <div className="category-recipe-container">
