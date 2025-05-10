@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../backend-recetas-app"
+		}
+	],
+	"settings": {}
+}
